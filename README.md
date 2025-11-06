@@ -1,5 +1,5 @@
 # robosys2025
-plus_stdin
+![test](https://github.com/KazukiFujita666/robosys2025/actions/workflows/test.yml/badge.svg)
 
 - このソフトウェアパッケージは，3条項BSDライセンスの下，再頒布および使用が許可されます．
 - このパッケージは，[Ryuichi Ueda](https://github.com/ryuichiueda)由来のコード（© 2025 Ryuichi Ueda）を利用しています．
