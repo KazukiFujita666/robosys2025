@@ -9,4 +9,4 @@ jobs:
     steps:
     - uses: actions/checkout@v3
     - name: Run factorize test
-      run: bash ./factorize
+      run: python3 ./factorize < test_input.txt
