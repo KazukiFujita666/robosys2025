@@ -16,7 +16,7 @@ def factorize(n):
         factors.append(n)
     return factors
 
-x = int(sys.stdin.read())
+x = int(input())
 
 factors = factorize(x)
 
