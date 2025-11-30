@@ -6,14 +6,18 @@
 ## インストール方法
 
 ~~~
-$ git clone git@github.com:KazukiFujita666/robosys2025.git
+$ git clone https://github.com/KazukiFujita666/robosys2025.git
 $ cd robosys2025
-$chmod +x factorize
+$ chmod +x factorize
 ~~~
 
-## 使い方
+## 実行例
 
-
+60を素因数分解
+~~~
+$ echo 60 | ./factorize
+2*2*3*5
+~~~
 
 - このソフトウェアパッケージは，3条項BSDライセンスの下，再頒布および使用が許可されます．
 - このパッケージは，[Ryuichi Ueda](https://github.com/ryuichiueda)由来のコード（© 2025 Ryuichi Ueda）を利用しています．
