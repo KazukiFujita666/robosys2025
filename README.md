@@ -5,11 +5,11 @@
 
 ## インストール方法
 
-'''
+~~~
 $ git clone git@github.com:KazukiFujita666/robosys2025.git
 $ cd robosys2025
 $chmod +x factorize
-'''
+~~~
 
 ## 使い方
 
