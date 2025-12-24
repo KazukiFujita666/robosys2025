@@ -16,9 +16,26 @@ def factorize(n):
         factors.append(n)
     return factors
 
-x = int(input())
+def main():
+    try:
+        line = sys.stdin.read().strip()
+        if not line:
+            sys.exit(1)
+        x = int(line)
+    except ValueError:
+        sys.exit(1)
 
-factors = factorize(x)
+    if x < 1:
+        sys.exit(1)
 
-print("*".join(str(f) for f in factors))
+    if x == 1:
+        print(1)
+        sys.exit(0)
+
+    factors = factorize(x)
+    print("*".join(str(f) for f in factors))
+
+if __name__ == "__main__":
+    main()
+
 
