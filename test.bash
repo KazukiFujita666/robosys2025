@@ -18,6 +18,9 @@ out=$(echo 12 | ./factorize)
 out=$(echo 36 | ./factorize)
 [ "$out" = "2*2*3*3" ] || ng "$LINENO"
 
+out=$(echo 180 | ./factorize)
+[ "$out" = "2*2*3*3*5" ] || ng "$LINENO"
+
 # 素数
 out=$(echo 97 | ./factorize)
 [ "$out" = "97" ] || ng "$LINENO"
