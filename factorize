@@ -35,7 +35,6 @@ def main():
     factors = factorize(x)
     print("*".join(str(f) for f in factors))
 
-if __name__ == "__main__":
-    main()
+main()
 
 
